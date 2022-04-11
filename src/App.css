@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.addtocart{
+  background-color: blue;
+  width: 200px;
+}
+.plus{
+  background-color: #282c34;
+  color: antiquewhite;
+  
+}
+
+.pm{
+  display: flex;
+  align-content: center;
+  margin-left:60px;
+  
+}
+.price{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap:20px;
+}
