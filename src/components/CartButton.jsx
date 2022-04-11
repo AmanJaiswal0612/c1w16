@@ -19,6 +19,7 @@ const CartButton = () => {
 
   {/* count with - and  + button */}
 
+
   <div >
        {
        !count?<button className="addtocart" onClick={()=>handleCart()}>Add to Cart</button>:
@@ -29,7 +30,8 @@ const CartButton = () => {
        </div>
        }
    </div>
+ </>
 
-  </>;
+ 
 };
 export default CartButton
